@@ -33,8 +33,8 @@ def load_and_train():
     from sklearn.cluster import KMeans
     from sklearn.decomposition import PCA
 
-    clients    = pd.read_csv("clients.csv")
-    properties = pd.read_csv("properties.csv")
+    clients    = pd.read_csv("clients(1).csv")
+    properties = pd.read_csv("properties(2) (1).csv")
 
     # Clean
     clients.drop(columns=['first_name','last_name'], inplace=True)
